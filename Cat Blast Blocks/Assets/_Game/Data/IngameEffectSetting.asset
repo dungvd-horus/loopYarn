@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8bf84778aca4964cbbc49f009567748, type: 3}
+  m_Name: IngameEffectSetting
+  m_EditorClassIdentifier: 
+  BulletSpeed: 30
+  BulletScale: 0.9
+  ChangeBulletColor: 1
+  ChangeOutlineColor: 0
+  IdleRate: 50
+  RabbitRandomIdleAnimation: 1
+  RabbitEarAnimation: 1
+  ShakeNeighborBlocks: 1
+  ShakeValue: 15
+  BlockScaleFactorWhenDestroyed: 1.5

@@ -1,0 +1,6959 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a76ac87e09a8a144b9fd971feadeed6, type: 3}
+  m_Name: Paint_Lv38_CollectorConfig
+  m_EditorClassIdentifier: 
+  CollectorColumns:
+  - Collectors:
+    - ID: 0
+      ColorCode: Orange3
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 3
+      ColorCode: Yellow4
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 6
+      ColorCode: Red2
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 9
+      ColorCode: Black
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 12
+      ColorCode: Cyan4
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 15
+      ColorCode: Black
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 18
+      ColorCode: Red3
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 21
+      ColorCode: Cyan4
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 24
+      ColorCode: White
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 27
+      ColorCode: Red3
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 30
+      ColorCode: White
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 33
+      ColorCode: Red3
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    Locks: []
+  - Collectors:
+    - ID: 1
+      ColorCode: Black
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 4
+      ColorCode: Red2
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 7
+      ColorCode: Yellow4
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 10
+      ColorCode: Cyan4
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 13
+      ColorCode: Red3
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 16
+      ColorCode: Cyan4
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 19
+      ColorCode: Red3
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 22
+      ColorCode: Black
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 25
+      ColorCode: Red3
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 28
+      ColorCode: Cyan4
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 31
+      ColorCode: White
+      Bullets: 40
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 34
+      ColorCode: White
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    Locks: []
+  - Collectors:
+    - ID: 2
+      ColorCode: Red3
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 5
+      ColorCode: Cyan4
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 8
+      ColorCode: White
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 11
+      ColorCode: Orange3
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 14
+      ColorCode: Yellow4
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 17
+      ColorCode: White
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 20
+      ColorCode: Cyan4
+      Bullets: 10
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 23
+      ColorCode: Red3
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 26
+      ColorCode: White
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 29
+      ColorCode: Red3
+      Bullets: 20
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    - ID: 32
+      ColorCode: Cyan4
+      Bullets: 20
+      Locked: 0
+      Hidden: 0
+      ConnectedCollectorsIDs: 
+    - ID: 35
+      ColorCode: Yellow4
+      Bullets: 40
+      Locked: 0
+      Hidden: 1
+      ConnectedCollectorsIDs: 
+    Locks: []
+  BackUpVariants:
+  - DateTime: 2025-11-01 11:03:27
+    CollectorColumns:
+    - Collectors:
+      - ID: 36
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 0
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 28
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 1
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-01 11:03:27
+    CollectorColumns:
+    - Collectors:
+      - ID: 36
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 0
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 28
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 1
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-04 13:04:16
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:06
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:08
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:10
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:12
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:18
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:20
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:29
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:31
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:34
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:36
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:38
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:40
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:42
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:45
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:47
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:49
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:50
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:52
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 11:59:54
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 12:00:00
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 12:00:10
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 12:00:19
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 12:00:37
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 12:00:55
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 12:01:02
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 13:36:47
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-11-10 13:36:52
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 24
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 27
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 30
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 33
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        ColorCode: Red2
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        ColorCode: Black
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 25
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 28
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 31
+        ColorCode: White
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 34
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        ColorCode: Orange3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        ColorCode: Yellow4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        ColorCode: Cyan4
+        Bullets: 10
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 23
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 26
+        ColorCode: White
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 29
+        ColorCode: Red3
+        Bullets: 20
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 32
+        ColorCode: Cyan4
+        Bullets: 20
+        Locked: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 35
+        ColorCode: Yellow4
+        Bullets: 40
+        Locked: 0
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      Locks: []
+  CurrentBackUpIndex: -1

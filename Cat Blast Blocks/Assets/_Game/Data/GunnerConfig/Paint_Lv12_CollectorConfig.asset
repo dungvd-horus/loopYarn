@@ -1,0 +1,3704 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a76ac87e09a8a144b9fd971feadeed6, type: 3}
+  m_Name: Paint_Lv12_CollectorConfig
+  m_EditorClassIdentifier: 
+  CollectorColumns:
+  - Collectors:
+    - ID: 0
+      CollectorType: 0
+      ColorCode: Red3
+      Bullets: 40
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 00000000
+    - ID: 3
+      CollectorType: 0
+      ColorCode: Red3
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 03000000
+    - ID: 6
+      CollectorType: 0
+      ColorCode: Brown1
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 1
+      ConnectedCollectorsIDs: 06000000
+    - ID: 9
+      CollectorType: 0
+      ColorCode: Orange4
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 09000000
+    - ID: 12
+      CollectorType: 0
+      ColorCode: White
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 1
+      ConnectedCollectorsIDs: 0c000000
+    - ID: 15
+      CollectorType: 0
+      ColorCode: Brown1
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 0f000000
+    Locks: []
+  - Collectors:
+    - ID: 1
+      CollectorType: 0
+      ColorCode: Orange4
+      Bullets: 40
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 01000000
+    - ID: 4
+      CollectorType: 0
+      ColorCode: Brown1
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 04000000
+    - ID: 7
+      CollectorType: 0
+      ColorCode: Red3
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 1
+      ConnectedCollectorsIDs: 07000000
+    - ID: 10
+      CollectorType: 0
+      ColorCode: Red3
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 0a000000
+    - ID: 13
+      CollectorType: 0
+      ColorCode: Orange4
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 1
+      ConnectedCollectorsIDs: 0d000000
+    - ID: 16
+      CollectorType: 0
+      ColorCode: Orange4
+      Bullets: 10
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 10000000
+    Locks: []
+  - Collectors:
+    - ID: 2
+      CollectorType: 0
+      ColorCode: Red3
+      Bullets: 40
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 02000000
+    - ID: 5
+      CollectorType: 0
+      ColorCode: Red3
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 05000000
+    - ID: 8
+      CollectorType: 0
+      ColorCode: White
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 1
+      ConnectedCollectorsIDs: 08000000
+    - ID: 11
+      CollectorType: 0
+      ColorCode: Brown1
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 0b000000
+    - ID: 14
+      CollectorType: 0
+      ColorCode: Orange4
+      Bullets: 20
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 1
+      ConnectedCollectorsIDs: 0e000000
+    - ID: 17
+      CollectorType: 0
+      ColorCode: White
+      Bullets: 10
+      CoolDownMoves: 0
+      MaxClonesCount: 1
+      BombTimerCount: 1
+      Hidden: 0
+      ConnectedCollectorsIDs: 11000000
+    Locks: []
+  BackUpVariants:
+  - DateTime: 2025-12-04 16:20:26
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 14
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 4
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 19
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 3
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:20:46
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 14
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 4
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 0
+        BombTimerCount: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 19
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 3
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:20:53
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 14
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 4
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 0
+        BombTimerCount: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 19
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 3
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:20:56
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 14
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 4
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 0
+        BombTimerCount: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 19
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 3
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:21:00
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 14
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 4
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 0
+        BombTimerCount: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 19
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 3
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:21:02
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 14
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 4
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 0
+        BombTimerCount: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 19
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 3
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:21:07
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 14
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 4
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 0
+        BombTimerCount: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 22
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 19
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 3
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:22:43
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 14
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 11
+        CoolDownMoves: 0
+        MaxClonesCount: 0
+        BombTimerCount: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 16
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 19
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:22:49
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 14
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 11
+        CoolDownMoves: 0
+        MaxClonesCount: 0
+        BombTimerCount: 0
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 16
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 21
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 19
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:23:01
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:23:10
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 20
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:23:18
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 19
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:23:20
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 18
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:23:23
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:23:28
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:23:31
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:23:36
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  - DateTime: 2025-12-04 16:24:44
+    CollectorColumns:
+    - Collectors:
+      - ID: 0
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 3
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 6
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 9
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 12
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 15
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 1
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 4
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 7
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 10
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 13
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 16
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+    - Collectors:
+      - ID: 2
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 40
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 5
+        CollectorType: 0
+        ColorCode: Red3
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 8
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 11
+        CollectorType: 0
+        ColorCode: Brown1
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      - ID: 14
+        CollectorType: 0
+        ColorCode: Orange4
+        Bullets: 20
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 1
+        ConnectedCollectorsIDs: 
+      - ID: 17
+        CollectorType: 0
+        ColorCode: White
+        Bullets: 10
+        CoolDownMoves: 0
+        MaxClonesCount: 1
+        BombTimerCount: 1
+        Hidden: 0
+        ConnectedCollectorsIDs: 
+      Locks: []
+  CurrentBackUpIndex: 17

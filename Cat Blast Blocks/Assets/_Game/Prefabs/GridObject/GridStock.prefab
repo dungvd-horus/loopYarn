@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3583039320555082814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8731079904386039844}
+  - component: {fileID: 1379584828709712873}
+  - component: {fileID: 432334391703895853}
+  - component: {fileID: 613925448046980851}
+  - component: {fileID: 4846644289514793631}
+  - component: {fileID: -4409910948090482925}
+  - component: {fileID: 938949158856108236}
+  m_Layer: 0
+  m_Name: GridStock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8731079904386039844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3583039320555082814}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -166.12912, y: 2455.8032, z: 30.295898}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1379584828709712873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3583039320555082814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 768dc286ad6823943b8337da67e95fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EffectHandler: {fileID: 0}
+  EffectOptions: {fileID: 11400000, guid: 3497664c259a2fe41a33b30dd1aed3ee, type: 2}
+  gridSize: {x: 0, y: 0}
+  paintingPixels: []
+  GridTransform: {fileID: 8731079904386039844}
+  KeyModule: {fileID: 432334391703895853}
+  PipeModule: {fileID: 4846644289514793631}
+  BigBlockModule: {fileID: 613925448046980851}
+  WallModule: {fileID: 938949158856108236}
+  BlockFountainModule: {fileID: -4409910948090482925}
+  PipeObjects: []
+  PipeObjectsPixels: []
+  BigBlockObjects: []
+  BigBlockObjectsPixels: []
+  KeyObjects: []
+  KeyObjectsPixels: []
+  BlockFountainObjects: []
+  BlockFountainObjectsPixels: []
+  IndestructibleWallObjects: []
+  IndestructibleWallObjectsPixels: []
+  AdditionPaintingPixels: []
+  pixelArrangeSpace: 1
+  BlockScale: {x: 1, y: 1, z: 1}
+  PrefabSource: {fileID: 11400000, guid: 2164b58aabde1d549a6f0f4cf413d90b, type: 2}
+  BaseBlockMaterial: {fileID: 2100000, guid: 1d5828fd9b707fc4e88264ff53ecf6fc, type: 2}
+  PixelCount: 0
+  PixelDestroyed: 0
+  MinRow: 0
+  MaxRow: 0
+  MinColumn: 0
+  MaxColumn: 0
+  materialsCache:
+    _serializedList: []
+  ColorVariantsSet:
+    _serializedList: []
+  ColorVariantsGet:
+    _serializedList: []
+--- !u!114 &432334391703895853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3583039320555082814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c036beeb2b731b43b68b88beeab737f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentGrid: {fileID: 1379584828709712873}
+--- !u!114 &613925448046980851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3583039320555082814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8504ebe9ebaffa749a85ea89c766d2bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentGrid: {fileID: 1379584828709712873}
+--- !u!114 &4846644289514793631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3583039320555082814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076432230d1c6a942a8881a306b995d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentGrid: {fileID: 1379584828709712873}
+--- !u!114 &-4409910948090482925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3583039320555082814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef502eacc2eeda84490de4f80100c6b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentGrid: {fileID: 1379584828709712873}
+--- !u!114 &938949158856108236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3583039320555082814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02764d9a69b160d41923f527b692828c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentGrid: {fileID: 1379584828709712873}
