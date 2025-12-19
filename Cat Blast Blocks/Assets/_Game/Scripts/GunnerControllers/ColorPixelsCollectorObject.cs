@@ -25,6 +25,22 @@ public class ColorPixelsCollectorObject : CollectorMachanicObjectBase
     public PaintingGridObject CurrentGrid;
 
     [Header("Shooting Mechanics")]
+     /// <summary>
+    /// Sử dụng hiệu ứng sợi len thay vì đạn
+    /// </summary>
+    [Tooltip("Use yarn animation instead of projectile")]
+    public bool UseYarnAnimation = false;
+
+    /// <summary>
+    /// Prefab của YarnLineAnimatorPro (sử dụng khi muốn animation đơn giản với queue-based)
+    /// </summary>
+    [Tooltip("YarnLineAnimatorPro prefab (simple queue-based animation)")]
+    public GameObject YarnLinePrefab;
+
+    /// <summary>
+    /// Instance của yarn animation được tái sử dụng
+    /// </summary>
+    // private YarnLineAnimatorPro  yarnLine;
     [Tooltip("Max number of bullets")]
     public int BulletCapacity = 10;
 
