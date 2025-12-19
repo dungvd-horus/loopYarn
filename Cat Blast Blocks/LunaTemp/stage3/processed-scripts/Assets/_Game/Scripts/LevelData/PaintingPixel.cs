@@ -20,6 +20,7 @@ public class PaintingPixel
     public bool Indestructible;
     public bool IsPipePixel;
     public bool IsWallPixel;
+    public bool IsFountainObjectPixel;
     public bool UsePaletteMaterialColor = true; // mới: true nếu dùng màu sẵn có của material palette
 
     // Thêm trường sharedMaterial
@@ -44,6 +45,7 @@ public class PaintingPixel
         this.Indestructible = false;
         this.Material = null;
         this.UsePaletteMaterialColor = true;
+        this.IsFountainObjectPixel = false;
     }
 
     // Constructor mới với sharedMaterial
@@ -144,6 +146,10 @@ public class PaintingPixel
         pixelObject?.SetActive(true);
         PixelComponent.ShowVisualOnly();
     }
-    public bool InCount() => !destroyed && (!Hidden || IsWallPixel || IsPipePixel || Indestructible);
-    public bool IsCompleteHidden() => destroyed || Hidden || IsWallPixel || IsPipePixel || Indestructible;
+    public bool InCount() => !destroyed && (!Hidden || IsWallPixel || IsPipePixel || IsFountainObjectPixel || Indestructible);
+    public bool IsCompleteHidden() => destroyed || Hidden || IsWallPixel || IsPipePixel || IsFountainObjectPixel || Indestructible;
+    public bool IsMechanicPixel()
+    {
+        return IsPipePixel || IsWallPixel || IsFountainObjectPixel || Indestructible;
+    }
 }

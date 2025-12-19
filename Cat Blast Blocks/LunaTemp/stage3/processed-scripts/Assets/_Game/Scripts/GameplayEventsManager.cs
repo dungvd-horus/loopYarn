@@ -10,7 +10,6 @@ public static class GameplayEventsManager
     public static Action<PaintingGridObject> OnGridObjectChanged;
     public static Action<PaintingGridObject> OnPaintingInitializeDone;
     #endregion
-
     #region _mechanic
     public static Action OnCollectAKey;
     public static Action OnAPipePixelDestroyed;

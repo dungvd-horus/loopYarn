@@ -25,6 +25,9 @@ public class PaintingConfig : ScriptableObject
     [Header("SPECIAL OBJECT: ADDITION PIXELS")]
     public List<PaintingPixelConfig> AdditionPixels = new List<PaintingPixelConfig>();
 
+    [Header("SPECIAL OBJECT: BLOCK FOUNTAIN")]
+    public List<BlockFountainObjectSetup> BlockFountainSetup = new List<BlockFountainObjectSetup>();
+
     /// <summary>
     /// Sets the Hidden property to true for any PaintingPixelConfig in _pixels 
     /// that appears in any PipeObjectSetup's PixelCovered list based on matching row and column
@@ -169,7 +172,40 @@ public class PaintingConfig : ScriptableObject
             }
             allPixels.Add(_p);
         }
+        int tmpIndex = 9999;
+        if (BlockFountainSetup != null)
+        {
+            foreach (var _fountain in BlockFountainSetup)
+            {
+                if (_fountain.BlockSets != null)
+                {
+                    foreach (var _blockset in _fountain.BlockSets)
+                    {
+                        if (string.IsNullOrEmpty(_blockset.ColorCode) ||
+                            _blockset.ColorCode.Equals(TransparentColorKey)) continue;
 
+                        for (int i = 0; i < _blockset.BlockCount; i++)
+                        {
+                            tmpIndex++;
+                            PaintingPixelConfig _new = new PaintingPixelConfig();
+                            _new.column = tmpIndex;
+                            _new.row = tmpIndex;
+                            _new.colorCode = _blockset.ColorCode;
+                            allPixels.Add(_new);
+                        }
+                    }
+                }
+
+                // Remove pixels covered by fountain from count
+                if (_fountain.PixelCovered != null)
+                {
+                    foreach (var p in _fountain.PixelCovered)
+                    {
+                        allPixels.RemoveAll(px => p.column == px.column && p.row == px.row);
+                    }
+                }
+            }
+        }
         return allPixels;
     }
 
@@ -335,6 +371,7 @@ public class PaintingConfig : ScriptableObject
         WallSetups.Clear();
         KeySetups.Clear();
         AdditionPixels.Clear();
+        BlockFountainSetup?.Clear();
     }
 
 #if UNITY_EDITOR

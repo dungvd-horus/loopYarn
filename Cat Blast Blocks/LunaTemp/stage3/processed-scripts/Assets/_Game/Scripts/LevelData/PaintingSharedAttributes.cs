@@ -14,7 +14,7 @@ public static class PaintingSharedAttributes
     public static string LevelConfigPath = "Assets/_Game/Data/LevelConfig/";
     public static string CollectorsConfigPath = "Assets/_Game/Data/GunnerConfig/";
     public static string PaintingConfigPath = "Assets/_Game/Data/PaintingConfig/";
-
+    public static string IndestructibleColorKey = "IndestructibleColor";
     public static void MoveRelative<T>(List<T> list, T itemToMove, T targetItem, bool higher)
     {
         if (list == null || itemToMove == null || targetItem == null)
@@ -143,5 +143,44 @@ public static class PaintingSharedAttributes
             (list[i], list[j]) = (list[j], list[i]);
         }
     }
+    #endregion
+
+    #region BlockFountain Data Classes
+
+    [System.Serializable]
+    public class BlockFountainObjectSetup
+    {
+        public List<BlockFountainBulletSet> BlockSets = new List<BlockFountainBulletSet>();
+        public List<PaintingPixelConfig> PixelCovered = new List<PaintingPixelConfig>();
+
+        public BlockFountainObjectSetup() { }
+
+        public BlockFountainObjectSetup(BlockFountainObjectSetup _stock)
+        {
+            BlockSets = new List<BlockFountainBulletSet>();
+            PixelCovered = new List<PaintingPixelConfig>();
+            if (_stock.BlockSets != null)
+                foreach (var b in _stock.BlockSets)
+                    BlockSets.Add(new BlockFountainBulletSet(b));
+            if (_stock.PixelCovered != null)
+                foreach (var p in _stock.PixelCovered)
+                    PixelCovered.Add(new PaintingPixelConfig(p));
+        }
+    }
+
+    [System.Serializable]
+    public class BlockFountainBulletSet
+    {
+        public string ColorCode;
+        public int BlockCount;
+
+        public BlockFountainBulletSet() { }
+        public BlockFountainBulletSet(BlockFountainBulletSet _stock)
+        {
+            ColorCode = _stock.ColorCode;
+            BlockCount = _stock.BlockCount;
+        }
+    }
+
     #endregion
 }

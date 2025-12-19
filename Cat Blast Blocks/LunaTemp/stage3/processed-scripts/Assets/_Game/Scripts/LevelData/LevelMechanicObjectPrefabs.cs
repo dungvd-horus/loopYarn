@@ -21,4 +21,8 @@ public class LevelMechanicObjectPrefabs : ScriptableObject
 
     [Space]
     public ColorPalleteData ColorPallete;
+
+    [Header("BLOCK FOUNTAIN")]
+    public GameObject BlockFountainPrefab;
+    public GameObject FountainProjectilePrefab;
 }

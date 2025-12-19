@@ -176,7 +176,23 @@ public class PaintingPixelComponent : MonoBehaviour
         gameObject.SetActive(true);
         pumpTween.Restart();
     }
+    /// <summary>
+    /// Revive the pixel with animation (called when fountain refills a destroyed pixel)
+    /// </summary>
+    public void ReviveAnimate()
+    {
+        if (PixelData == null) return;
 
+        PixelData.destroyed = false;
+        gameObject.SetActive(true);
+
+        // Optional: Add scale animation
+        transform.localScale = Vector3.zero;
+        transform.DOScale(initScale, 0.3f).SetEase(Ease.OutBack);
+
+        // Show visual
+        ShowVisualOnly();
+    }
     [ContextMenu("Create Shake Tween")]
     private void CreateShakeTween()
     {

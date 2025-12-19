@@ -1,9 +1,10 @@
-using static PaintingSharedAttributes;
-using Random = UnityEngine.Random;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using System;
+using static HarmonyLib.Code;
+using static PaintingSharedAttributes;
+using Random = UnityEngine.Random;
 
 public class PaintingGridObject : MonoBehaviour
 {
@@ -63,6 +64,12 @@ public class PaintingGridObject : MonoBehaviour
 
     private List<PaintingPixel> currentOutlinePixels = new List<PaintingPixel>();
 
+    [Header("Block Fountain")]
+    public GridBlockFountainModule BlockFountainModule;
+    public List<BlockFountainObject> BlockFountainObjects = new List<BlockFountainObject>();
+    public List<PaintingPixel> BlockFountainObjectsPixels = new List<PaintingPixel>();
+
+
     [Space]
     public int PixelCount = 0;
     public int PixelDestroyed = 0;
@@ -93,6 +100,8 @@ public class PaintingGridObject : MonoBehaviour
         ColorPalette.SetupMaterials();
         GridTransform = transform;
         RegisterEvent();
+        if (BlockFountainModule == null)
+            BlockFountainModule = GetComponent<GridBlockFountainModule>();
     }
 
     private void OnDestroy()
@@ -182,6 +191,8 @@ public class PaintingGridObject : MonoBehaviour
         // Apply key configurations as well
         ApplyKeyConfigurations(paintingConfig);
 
+        // NEW: Apply block fountain configurations
+        ApplyBlockFountainConfigurations(paintingConfig);
     }
 
     public void SetUpMechanicDependencies()
@@ -263,7 +274,11 @@ public class PaintingGridObject : MonoBehaviour
         }
 
         if (!isPipePixel) UpdatePixelDestroyedCount(1);
-
+        // NEW: Check if fountain can refill this pixel
+        if (!_pixel.IsMechanicPixel() && BlockFountainObjects != null && BlockFountainObjects.Count > 0)
+        {
+            ReFillBlockUsingFountain(_pixel);
+        }
         UpdateOutlinePixels();
 
         // Trigger event to notify that grid pixels have changed
@@ -433,6 +448,19 @@ public class PaintingGridObject : MonoBehaviour
         // Release pooled materials (optional memory reclaim)
         // PaintingPixelComponent.ClearSharedPool(); // Nếu bạn có pool material
         ClearColorCodeMaterials(); // Clear materials khi hủy tất cả pixel
+                                   // NEW: Clear fountain objects
+        for (int i = 0; i < BlockFountainObjects.Count; i++)
+        {
+            if (BlockFountainObjects[i] != null)
+            {
+                if (Application.isPlaying)
+                    GameObject.Destroy(BlockFountainObjects[i].gameObject);
+                else
+                    GameObject.DestroyImmediate(BlockFountainObjects[i].gameObject);
+            }
+        }
+        BlockFountainObjects.Clear();
+        BlockFountainObjectsPixels.Clear();
     }
 
     public List<PaintingPixel> SelectOutlinePixels()
@@ -1253,19 +1281,29 @@ public class PaintingGridObject : MonoBehaviour
     #endregion
 
     #region SUPPORTIVE
-    private Vector3 GetCenterByBoundingBox(List<PaintingPixelComponent> points)
+    public Vector3 GetCenterByBoundingBox(List<PaintingPixelComponent> points)
     {
         if (points == null || points.Count == 0)
             return Vector3.zero;
 
-        if (points.Count == 1) return points[0].PixelData.worldPos;
+        if (points.Count == 1)
+            return points[0].transform.position;
 
-        float minX = points.Min(p => p.transform.position.x);
-        float maxX = points.Max(p => p.transform.position.x);
-        float minY = points.Min(p => p.transform.position.y);
-        float maxY = points.Max(p => p.transform.position.y);
-        float minZ = points.Min(p => p.transform.position.z);
-        float maxZ = points.Max(p => p.transform.position.z);
+        float minX = float.MaxValue, maxX = float.MinValue;
+        float minY = float.MaxValue, maxY = float.MinValue;
+        float minZ = float.MaxValue, maxZ = float.MinValue;
+
+        foreach (var p in points)
+        {
+            if (p == null) continue;
+            var pos = p.transform.position;
+            if (pos.x < minX) minX = pos.x;
+            if (pos.x > maxX) maxX = pos.x;
+            if (pos.y < minY) minY = pos.y;
+            if (pos.y > maxY) maxY = pos.y;
+            if (pos.z < minZ) minZ = pos.z;
+            if (pos.z > maxZ) maxZ = pos.z;
+        }
 
         return new Vector3(
             (minX + maxX) * 0.5f,
@@ -1307,18 +1345,28 @@ public class PaintingGridObject : MonoBehaviour
 
         return _rs;
     }
-    private Vector3 GetCenterByBoundingBox(List<PaintingPixel> points)
+
+    public Vector3 GetCenterByBoundingBox(List<PaintingPixel> points)
     {
         if (points == null || points.Count == 0) return Vector3.zero;
 
-        if (points.Count == 1) return CalculatePixelPosition(points[0].column, points[0].row, YOffset);
+        if (points.Count == 1)
+            return CalculatePixelPosition(points[0].column, points[0].row, YOffset);
 
-        float minX = points.Min(p => CalculatePixelPosition(p.column, p.row, YOffset).x);
-        float maxX = points.Max(p => CalculatePixelPosition(p.column, p.row, YOffset).x);
-        float minY = points.Min(p => CalculatePixelPosition(p.column, p.row, YOffset).y);
-        float maxY = points.Max(p => CalculatePixelPosition(p.column, p.row, YOffset).y);
-        float minZ = points.Min(p => CalculatePixelPosition(p.column, p.row, YOffset).z);
-        float maxZ = points.Max(p => CalculatePixelPosition(p.column, p.row, YOffset).z);
+        float minX = float.MaxValue, maxX = float.MinValue;
+        float minY = float.MaxValue, maxY = float.MinValue;
+        float minZ = float.MaxValue, maxZ = float.MinValue;
+
+        foreach (var p in points)
+        {
+            var pos = CalculatePixelPosition(p.column, p.row, YOffset);
+            if (pos.x < minX) minX = pos.x;
+            if (pos.x > maxX) maxX = pos.x;
+            if (pos.y < minY) minY = pos.y;
+            if (pos.y > maxY) maxY = pos.y;
+            if (pos.z < minZ) minZ = pos.z;
+            if (pos.z > maxZ) maxZ = pos.z;
+        }
 
         return new Vector3(
             (minX + maxX) * 0.5f,
@@ -1334,10 +1382,16 @@ public class PaintingGridObject : MonoBehaviour
 
         if (pixels.Count == 1) return (1, 1);
 
-        int minRow = pixels.Min(p => p.row);
-        int maxRow = pixels.Max(p => p.row);
-        int minCol = pixels.Min(p => p.column);
-        int maxCol = pixels.Max(p => p.column);
+        int minRow = int.MaxValue, maxRow = int.MinValue;
+        int minCol = int.MaxValue, maxCol = int.MinValue;
+
+        foreach (var p in pixels)
+        {
+            if (p.row < minRow) minRow = p.row;
+            if (p.row > maxRow) maxRow = p.row;
+            if (p.column < minCol) minCol = p.column;
+            if (p.column > maxCol) maxCol = p.column;
+        }
 
         int rowCount = maxRow - minRow + 1;
         int columnCount = maxCol - minCol + 1;
@@ -1353,7 +1407,7 @@ public class PaintingGridObject : MonoBehaviour
                 if (pixel.row == row) return pixel;
             }
         }
-        return null;
+        return GetOriginalPixelAt(column, row);
     }
 
     public PaintingPixel GetOriginalPixelAt(int column, int row)
@@ -1485,7 +1539,23 @@ public class PaintingGridObject : MonoBehaviour
 
         return pixel;
     }
+    public PaintingPixel CreateNewPaintingPixelAbstract(PaintingPixelConfig pixelConfig, bool calculatePosition = false)
+    {
+        PaintingPixel pixel = new PaintingPixel
+        {
+            column = pixelConfig.column,
+            row = pixelConfig.row,
+            colorCode = pixelConfig.colorCode,
+            Hidden = pixelConfig.Hidden
+        };
 
+        if (calculatePosition)
+        {
+            pixel.worldPos = CalculatePixelPosition(pixel.column, pixel.row, YOffset);
+        }
+
+        return pixel;
+    }
     public PaintingPixel CreateNewPaintingPixelReal(PaintingPixelConfig pixelConfig, bool calculatePositon = false)
     {
         Vector3 worldPos = CalculatePixelPosition(pixelConfig.column, pixelConfig.row, YOffset);
@@ -1603,8 +1673,8 @@ public class PaintingGridObject : MonoBehaviour
         var rs = GetPixelAtGridPosition(col, row);
         return rs != null && rs.destroyed;
     }
+   
     #endregion
-
     #region TOOL RELATED
     public PaintingPixelComponent GetPixelBasedOnPosition([Bridge.Ref] Vector3 _pos, float presicion = 0.5f)
     {
@@ -1721,5 +1791,97 @@ public class PaintingGridObject : MonoBehaviour
             pixel.worldPos = pixel.PixelComponent.transform.localPosition;
         }
     }
+    #endregion
+    #region BLOCK FOUNTAIN
+
+    public void ApplyBlockFountainConfigurations(PaintingConfig paintingConfig)
+    {
+
+        if (paintingConfig == null || paintingConfig.BlockFountainSetup == null || paintingConfig.BlockFountainSetup.Count <= 0)
+        {
+            return;
+        }
+
+        ClearAllBlockFountains();
+
+        if (BlockFountainModule == null)
+        {
+            BlockFountainModule = GetComponent<GridBlockFountainModule>();
+            if (BlockFountainModule == null)
+            {
+                
+                return;
+            }
+        }
+
+        // ★ FIX: Đảm bảo CurrentGrid trỏ đến đúng object
+        BlockFountainModule.CurrentGrid = this;
+
+        foreach (var fountainSetup in paintingConfig.BlockFountainSetup)
+        {
+            if (fountainSetup != null)
+            {
+               
+                BlockFountainModule.CreateBlockFountainObject(fountainSetup);
+            }
+        }
+    }
+
+    public void ClearAllBlockFountains()
+    {
+        if (BlockFountainObjects == null)
+            BlockFountainObjects = new List<BlockFountainObject>();
+        else
+        {
+            List<BlockFountainObject> tmp = new List<BlockFountainObject>(BlockFountainObjects);
+            foreach (var fountainObj in tmp)
+            {
+                if (BlockFountainModule != null)
+                    BlockFountainModule.RemoveBlockFountainObject(fountainObj);
+                else if (fountainObj != null)
+                    fountainObj.SelfDestroyGameobject();
+            }
+        }
+        BlockFountainObjects.Clear();
+
+        if (BlockFountainObjectsPixels == null)
+            BlockFountainObjectsPixels = new List<PaintingPixel>();
+        else
+            BlockFountainObjectsPixels.Clear();
+    }
+
+    public void ReFillBlockUsingFountain(PaintingPixel _block)
+    {
+        if (BlockFountainObjects == null || BlockFountainObjects.Count <= 0) return;
+
+        foreach (var fountain in BlockFountainObjects)
+        {
+            if (fountain.SprayBlock(_block.colorCode, _block.PixelComponent))
+            {
+                _block.destroyed = false;
+                UpdateOutlinePixels();
+                break;
+            }
+        }
+    }
+
+    public bool AnyPixelLeftWithColor(string colorCode, out List<PaintingPixel> pixels)
+    {
+        pixels = new List<PaintingPixel>();
+
+        if (pixelByColors.TryGetValue(colorCode, out var colorPixels))
+        {
+            pixels = colorPixels;
+            foreach (var pixel in colorPixels)
+            {
+                if (pixel != null && !pixel.destroyed && !pixel.Hidden)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     #endregion
 }
